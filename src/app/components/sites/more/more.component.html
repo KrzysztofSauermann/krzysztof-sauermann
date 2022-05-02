@@ -1,0 +1,16 @@
+<div class="site gray-background">
+    <p>more works!</p>
+    <!-- <app-loader [blockUI]="true"></app-loader> -->
+    <!-- <app-loader [blockUI]="false"></app-loader> -->
+    <app-button>Button</app-button>
+    <app-button [isBig]="true">Big Button</app-button>
+    <app-button [type]="'info'">Info Button</app-button>
+    <app-button [type]="'warning'">Warning Button</app-button>
+    <app-button [type]="'error'">Error Button</app-button>
+    <app-button (click)="showPopup()">Shown Popup</app-button>
+    <app-button (click)="showGallery()">Shown Gallery</app-button>
+    <app-popup title="Popup" [defaultHidden]="true" [(shown)]="popupShown">
+        Popup content
+    </app-popup>
+    <app-gallery [defaultHidden]="true" [(shown)]="galleryShown" [elements]="galleryElements"></app-gallery>
+</div>

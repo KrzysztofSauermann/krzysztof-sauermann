@@ -1,0 +1,10 @@
+<div [ngClass]="{'popup-background': shown}" (click)="hidePopup()"></div>
+<div [ngClass]="{'popup': shown}">
+    <header *ngIf="shown" class='popup-header'>
+        <div class="title">{{title}}</div>
+        <fa-icon *ngIf="shown" class="close-icon" (click)="hidePopup()" [icon]="faTimes"></fa-icon>
+    </header>
+    <main [ngClass]="{'popup-content': shown}">
+        <ng-content *ngIf="!defaultHidden || shown"></ng-content>
+    </main>
+</div>

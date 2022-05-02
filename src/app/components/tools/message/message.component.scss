@@ -1,0 +1,61 @@
+@import "../../../../scss/colors.scss";
+
+.message-container {
+    position: fixed;
+    z-index: 1111;  
+    right: 2%;
+    top: 80px;
+    animation: popup-message 0.7s forwards;
+    animation-delay: 0s;    
+}
+.message {
+    min-width: 300px;   
+    max-width: 500px;   
+    margin-left: 10px;
+    padding: 7px 10px 10px 10px;
+    border-radius: 2px;
+    opacity: 0.95;
+    border: 1px solid;
+    font-size: 16px; 
+}
+.message > header {
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.message > p {
+    padding: 10px;
+}
+.info {
+    background-color: #9dcdf5;
+    border-color: #72a9fc;
+    box-shadow: 2px 3px 7px 2px rgb(173, 210, 235); 
+}
+.warning {
+    background-color: #f0be53;
+    border-color: #df9330;
+    box-shadow: 2px 3px 7px 2px rgb(226, 159, 83); 
+}
+.error {
+    background-color: #f7485f;
+    border-color: #f52323;
+    box-shadow: 2px 3px 7px 2px rgb(214, 103, 99); 
+}
+.icon {
+    position: relative;    
+    float: right;
+    color: $main-color;
+    font-size: 18px;
+}
+.icon:hover{
+    transform: scale(1.2);
+}
+.hidden {
+    display: none;  
+}
+@keyframes popup-message {
+    0% { transform: scale(0); }
+    60% { transform: scale(1); }
+    75% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}

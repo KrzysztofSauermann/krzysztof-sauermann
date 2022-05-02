@@ -1,0 +1,90 @@
+@import "../../../../scss/sizes.scss";
+
+.position {
+    position: fixed;   
+    top:0;
+    left:0;
+}
+.popup-background {
+    background-color: rgb(245, 241, 241);
+    z-index: 1000;
+    width: 100%;
+    height: 100%;   
+    @extend .position;
+}
+.popup {
+    box-shadow: 2px 2px 15px 5px rgb(219, 218, 218);
+    margin: 2vh 2vw;
+    z-index: 1001;
+    width: 96vw;
+    height: 96vh;
+    position: fixed;
+    top:0; 
+    left: 0;
+    background-color: white;
+    animation: popup-show 0.7s forwards;
+    animation-delay: 0.1s; 
+    opacity: 0;
+}
+.popup-header {
+    height: 40px;
+    width: 100%;
+    box-shadow: 0.3px 0.3px 0.5px 0.3px rgb(219, 218, 218);    
+}
+.popup-header .title {
+    text-align: center;
+    padding-top: 9px;
+    width: 100%;
+    font-size: 17px;
+    font-weight: bold;
+}
+.popup-header .close-icon {
+    position: absolute;
+    right: 9px;
+    top: 2px;
+    font-size: 26px;
+    color: gray;
+}
+.popup-content {    
+	position: relative;    
+    width: 90vw;
+    height: calc(90vh - 40px);
+    overflow-y: auto;
+    padding-left: 15px;  	
+    padding-right: 15px;  	
+    font-size: 16px;  
+}
+
+@keyframes popup-show {
+    0% { transform: scale(0); opacity: 0; }
+    60% { transform: scale(1); opacity: 0.8;}
+    80% { transform: scale(1.018); opacity: 1;}
+    100% { transform: scale(1); opacity: 1;}
+}
+
+@media screen and (min-width: $small-pc-width-plus-one) and (max-width: $pc-width) {
+    .popup {
+        width: 60vw;
+        height: 96vh;
+        position: fixed;  
+        left: 18vw;   
+    }
+    .popup-content { 
+        left: 2vw;   
+        width: 55vw;
+        font-size: 17px;  
+    }
+}
+@media screen and (min-width: $pc-width-plus-one) {
+    .popup {
+        width: 50vw;
+        height: 96vh;
+        position: fixed;  
+        left: 23vw;   
+    }
+    .popup-content { 
+        left: 2vw;   
+        width: 45vw; 
+        font-size: 19px; 
+    }
+}

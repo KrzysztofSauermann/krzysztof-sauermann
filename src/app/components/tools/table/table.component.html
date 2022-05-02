@@ -1,0 +1,12 @@
+<table [ngClass]="classes">
+    <thead> 
+        <tr>
+              <th *ngFor="let header of headers">{{header}}</th>
+        </tr> 
+    </thead>
+    <tbody>
+        <tr *ngFor="let row of rows">
+            <td [attr.colspan]="row.colspan" *ngFor="let r of row.data; index as i"><div class="td-header">{{headers[i]}}</div>{{r}}</td>
+        </tr>
+    </tbody>
+</table>

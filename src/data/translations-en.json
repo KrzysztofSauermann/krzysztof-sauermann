@@ -1,0 +1,28 @@
+{
+    "translations": [
+        {
+            "k": "home",
+            "v": "Home"
+        },
+        {
+            "k": "about",
+            "v": "About"
+        },
+        {
+            "k": "contact",
+            "v": "Contact"
+        },
+        {
+            "k": "offer",
+            "v": "Offer"
+        },
+        {
+            "k": "more",
+            "v": "More"
+        },
+        {
+            "k": "x",
+            "v": "x"
+        }
+    ]
+}

@@ -1,0 +1,4 @@
+<a [href]="link" target="_blank">
+    <img  *ngIf="src != ''" width="{{width}}" height="{{height}}" class="external-icon" src="{{src}}" />
+    <fa-icon *ngIf="faIcon != null" [icon]="faIcon!" class="icon" [style]="style"></fa-icon>
+</a>

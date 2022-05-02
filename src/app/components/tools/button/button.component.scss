@@ -1,0 +1,34 @@
+@import "../../../../scss/colors.scss";
+.button {
+    position: relative;   
+    text-align: center;
+    padding: 7px 60px;
+    margin: 7px;
+    outline: none;   
+    border: 1px solid transparent; 
+    box-shadow: 0.1px 0.5px 1px 0.5px $main-color-gray;
+    background-color: white;
+    font-size: 16px;   
+    z-index: 199;
+    color: $main-color-gray-dark;
+}
+.button-big {
+    height: 80px; 
+}
+.button:hover {
+    color: white;
+    transform: scale(1.03);
+    background-color: $main-color-gray; 
+}
+.info {
+    background-color: #e6ffff;
+    color: #3a73da;
+}
+.warning {
+    background-color: #f8c799;
+    color: #db5c21;
+}
+.error {
+    background-color: #f7a7ab;
+    color: #e73561;
+}

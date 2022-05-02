@@ -1,0 +1,18 @@
+export const environment = {
+  production: true,
+  languageCookieName: 'krzysztofsauermann_site_language',
+  pl: 'pl',
+  en: 'en',
+  HEADER: "HEADER",
+  HOME: "HOME",
+  USER: "USER",
+  ADMIN: "ADMIN",
+  Copy: "Krzysztof Sauermann",
+  Standard: "standard",
+  Info: "info",
+  Warning: "warning",
+  Error: "error",
+  Small: "small",
+  Medium: "medium",
+  Big: "big",
+};

@@ -1,0 +1,265 @@
+{
+    "translations": [
+        {
+            "k": "home",
+            "v": "Start"
+        },
+        {
+            "k": "about",
+            "v": "O mnie"
+        },
+        {
+            "k": "contact",
+            "v": "Kontakt"
+        },
+        {
+            "k": "offer",
+            "v": "Oferta"
+        },
+        {
+            "k": "more",
+            "v": "Więcej"
+        },
+
+        {
+            "k": "Technologies",
+            "v": "Technologie"
+        },
+        {
+            "k": "Contact",
+            "v": "Kontakt"
+        },
+        {
+            "k": "Offer",
+            "v": "Oferta"
+        },
+        {
+            "k": ".NET Developer",
+            "v": "Programista .NET"
+        },
+        {
+            "k": "Programming trainer",
+            "v": "Trener programowania"
+        },
+        {
+            "k": "T-SQL Developer",
+            "v": "Programista T-SQL"
+        },
+        {
+            "k": "MS Azure Administrator",
+            "v": "Administrator MS Azure"
+        },
+        {
+            "k": "Microsoft Certifications",
+            "v": "Certyfikaty Microsoft"
+        },
+        {
+            "k": "(Click to verify)",
+            "v": "(Kliknij aby zweryfikować)"
+        },
+        {
+            "k": "info",
+            "v": "informacja"
+        },
+        {
+            "k": "warning",
+            "v": "otrzeżenie"
+        },
+        {
+            "k": "error",
+            "v": "błąd"
+        },
+        {
+            "k": "Company name",
+            "v": "Nazwa firmy"
+        },
+        {
+            "k": "E-mail copied to clipboard.",
+            "v": "E-mail skopiowany do schowka."
+        },
+        {
+            "k": "Creating and administrating",
+            "v": "Tworzenie i administracja"
+        },
+        {
+            "k": "Responsive web application / Static HTML sites / Web services",
+            "v": "Responsywne aplikcaje webowe / Statyczne strony HTML / Serwisy webowe"
+        },
+        {
+            "k": "Design, administration, and maintenance of MS SQL Server",
+            "v": "Projektowanie, administracja oraz utrzymanie w MS SQL Server"
+        },
+        {
+            "k": ".NET applications using C# language",
+            "v": "Aplikacje .NET z użyciem języka C#"
+        },
+        {
+            "k": "Customized - Tell me what you need. I'll design and create a system that will be exactly what you want. Use",
+            "v": "Dopasowane do wymagań - Powiedz czego potrzebujesz. Zaprojektuję i stworzę system, który będzie dokładnie taki, jak chcesz. Użyj"
+        },
+        {
+            "k": "contact page",
+            "v": "strony kontaktowej"
+        },
+        {
+            "k": "Programming training",
+            "v": "Szkolenia z programowania"
+        },
+        {
+            "k": "Beginners",
+            "v": "Początkujący"
+        },
+        {
+            "k": "First steps with databases",
+            "v": "Pierwsze kroki z bazami danych"
+        },
+        {
+            "k": "First steps with Visual Studio and C#",
+            "v": "Pierwsze kroki w Visual Studio oraz C#"
+        },
+        {
+            "k": "Intermediate",
+            "v": "Średnio zaawansowany"
+        },
+        {
+            "k": "Programming in C#",
+            "v": "Programowanie w C#"
+        },
+        {
+            "k": "Design patterns and clean code",
+            "v": "Wzorce projektowe i czysty kod"
+        },
+        {
+            "k": "Creating web applications using ASP.NET",
+            "v": "Tworzenie aplikacji webowych za pomocą ASP.NET"
+        },
+        {
+            "k": "Querying and manipulating data for .NET Developers",
+            "v": "Zapytania oraz manipulacja danymi dla Programistów .NET"
+        },
+        {
+            "k": "Advanced",
+            "v": "Zaawansowany"
+        },
+        {
+            "k": "Advanced queries using LINQ",
+            "v": "Zaawansowane zapytania z użyciem LINQ"
+        },
+        {
+            "k": "Something different? - Tell me what you need and I'll create training that fits your requirements. Use",
+            "v": "Coś innego? - Daj znać czego potrzebujesz, a stworzę szkolenie dopasowane do Twoich wymagań. Użyj"
+        },
+        {
+            "k": "h",
+            "v": " godz."
+        },
+        {
+            "k": "with about",
+            "v": "z około"
+        },
+        {
+            "k": "years of commercial experience",
+            "v": "lat komercyjnego doświadczenia"
+        },
+        {
+            "k": "years experience",
+            "v": "lat doświadczenia"
+        },
+        {
+            "k": "Development of systems based on Microsoft technologies. Building backend applications using C #, .NET Framework, and .NET Core",
+            "v": "Rozwój systemów opartych o technologie Microsoft. Tworzenie aplikacji backendowych przy użyciu C#, .NET Framework i .NET Core"
+        },
+        {
+            "k": "Building Web applications with HTML5, Microsoft ASP.NET MVC, ASP.NET Core, and also Angular, React JS. Using REST API, WCF services",
+            "v": "Tworzenie aplikacji internetowych z wykorzystaniem HTML5, Microsoft ASP.NET MVC, ASP.NET Core, a także Angular, React JS. Z użyciem z REST API, serwisów WCF"
+        },
+        {
+            "k": "Hosting application on Windows Server with IIS, and on Microsoft Azure Cloud",
+            "v": "Hosting aplikacji w systemie Windows Server z usługami IIS oraz w chmurze Microsoft Azure"
+        },
+        {
+            "k": "Administering and optimizing data with MS SQL Server, SQLite, Azure SQL, and Azure CosmosDB",
+            "v": "Administrowanie i optymalizowanie danych za pomocą MS SQL Server, SQLite, Azure SQL i Azure CosmosDB"
+        },
+        {
+            "k": "Main tools to manage, develop and deploy code. Creating AzureDevops pipelines and GitHub actions",
+            "v": "Główne narzędzia do zarządzania, tworzenia i wdrażania kodu. Tworzenie AzureDevops pipelines i GitHub actions"
+        },
+        {
+            "k": "of",
+            "v": ""
+        },
+        {
+            "k": "and",
+            "v": "oraz"
+        },
+        {
+            "k": "About",
+            "v": "Około"
+        },
+        {
+            "k": "Login",
+            "v": "Logowanie"
+        },
+        {
+            "k": "Logout",
+            "v": "Wyloguj się"
+        },
+        {
+            "k": "Register",
+            "v": "Rejestracja"
+        },
+        {
+            "k": "Password",
+            "v": "Hasło"
+        },
+        {
+            "k": "Wait",
+            "v": "Czekaj"
+        },
+        {
+            "k": "Wait...",
+            "v": "Czekaj..."
+        },
+        {
+            "k": "Wait for logout",
+            "v": "Czekaj na wylogowanie"
+        },
+        {
+            "k": "User logged out",
+            "v": "Użytkownik wylogowany"
+        },
+        {
+            "k": "Confirm password",
+            "v": "Potwierdź hasło"
+        },
+        {
+            "k": "Key",
+            "v": "Klucz"
+        },
+        {
+            "k": "Email is required and should be in correct format",
+            "v": "Pole Email nie może być puste i musi mieć odpowiedni format"
+        },
+        {
+            "k": "Password is required",
+            "v": "Pole Hasło nie może być puste"
+        },
+        {
+            "k": "Invalid authentication request",
+            "v": "Błędne dane logowania"
+        },        
+        {
+            "k": "Exploring data for .NET Developers",
+            "v": "Dostęp do danych dla Programistów .NET"
+        },
+        {
+            "k":"We use cookies.",
+            "v":"Używamy ciasteczek."
+        },
+        {
+            "k": "x",
+            "v": "x"
+        }
+    ]
+}

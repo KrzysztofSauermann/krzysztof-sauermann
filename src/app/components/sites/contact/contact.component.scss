@@ -1,0 +1,110 @@
+@import "../../../../scss/colors.scss";
+
+main {
+    height: 50vh;
+}
+.site {
+    min-height: 20vh;
+}
+table {
+    max-width: 80%;
+}
+td {
+    word-wrap: break-word;
+}
+
+td:last-child {
+    text-align: left;
+}
+td:first-child {
+    width: 200px;
+    text-align: center;
+    width: 300px;
+}
+#mail {
+    padding-top: 10px;
+}
+.company {
+    padding: 15px;
+    list-style: none;
+    //padding-inline-start: 0;
+    display: table;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.company li {
+    text-align: left;
+}
+.flex {
+    display: flex;
+}
+.icon {
+    color: $main-color;
+    margin: 8px;
+    font-size: 18px;
+}
+.contact {
+    text-align: left; 
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+.details {
+    margin: 0 auto;    
+    padding: 10px;
+    display: table;     
+}
+.description {
+   margin-top: 9px;
+   padding-left: 10px;   
+}
+.title {
+    color: dimgray;
+    text-align: right;
+}
+.gmail {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 32px;      
+    outline: none;
+    border: none;
+}
+.disabled {
+    pointer-events: none;
+    color: gray;
+    opacity: 0.6;
+}
+.mono-image-circle {   
+    border-radius: 50%;
+    box-shadow: 5px 6px 7px 2px rgb(194, 194, 194);
+}
+.small-image {
+    width: 200px;
+}
+@media only screen and (max-width: 721px) {
+    .details {      
+        font-size: 13px;   
+        word-wrap: break-word;
+    }
+    .link {
+        font-size: 13px;
+        max-width: 300px;
+    }
+    .icon-links {
+        transform: scale(2);
+        display: flex;
+        margin-left: 30%;        
+        margin-right: 30%;  
+        margin-bottom: 30px;      
+    }
+    .title {
+        text-align: left;
+    }
+}
+@media only screen and (min-width: 722px) {
+    .details {      
+        font-size: 15px;  
+    }
+}

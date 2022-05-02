@@ -1,0 +1,21 @@
+@import '../../../../scss/colors.scss';
+main {
+    padding-top: 10px;
+}
+.box ul li, .info {
+    text-align: left;
+}
+.info {
+    margin-left: 25px;
+    color: black;
+}
+h3,h4 {
+    color: $name-color;;
+}
+a {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.images img {
+    max-width: 90%;
+}

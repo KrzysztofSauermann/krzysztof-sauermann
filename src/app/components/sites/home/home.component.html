@@ -1,0 +1,60 @@
+<app-logo [size]="'medium'"></app-logo>
+<app-brand>Krzysztof Sauermann</app-brand>
+<app-menu type="HOME"></app-menu>
+<app-set-language></app-set-language>
+<div class="site gray-background">
+    <main>
+        <div class="animate-container box">
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <td>
+                            <section class="animate-slide-left-to-center">
+                                <img class="color-image" src="assets/images/color.webp" />
+                            </section>
+                        </td>
+                        <td>
+                            <section class="animate-slide-right-to-center">
+                                <ul class="ul-center font18">
+                                    <li appTranslate>.NET Developer</li>
+                                    <li appTranslate>Programming trainer</li>
+                                    <li appTranslate>T-SQL Developer</li>
+                                    <li appTranslate>MS Azure Administrator</li>
+                                </ul>
+                            </section>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="animate-container box">
+            <h3 class="title animate-show" appTranslate>Microsoft Certifications</h3>
+            <p class="description animate-show" appTranslate>(Click to verify)</p>
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <td colspan="2">
+                            <section class="animate-show">
+                                <app-external-link class="scaled" [width]="externalLinkSize" [height]="externalLinkSize"
+                                    [src]="'assets/images/mcse.webp'" [link]="mcseLink">
+                                </app-external-link>
+                                <app-external-link class="scaled" [src]="'assets/images/mcsd.webp'"
+                                    [width]="externalLinkSize" [height]="externalLinkSize" [link]="mcsdLink">
+                                </app-external-link>
+
+                                <app-external-link class="scaled" [width]="externalLinkSize" [height]="externalLinkSize"
+                                    [src]="'assets/images/mcsa-sql.webp'" [link]="mcsaSqlLink"></app-external-link>
+                                <app-external-link class="scaled" [src]="'assets/images/mcsa-web.webp'"
+                                    [width]="externalLinkSize" [height]="externalLinkSize" [link]="mcsaWebLink">
+                                </app-external-link>
+                            </section>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+</div>
+<div #colorImage class="hidden">
+    <img class="color-image animate-slide-left-to-center" src="assets/images/color.webp" />
+</div>

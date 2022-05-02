@@ -1,0 +1,19 @@
+<div *ngIf="!showError" [ngClass]="{'gallery': shown}">
+    <div *ngIf="shown" class="info">{{currentElement + 1}}/{{elements.length}}</div>
+    <fa-icon *ngIf="shown" class="close-icon" (click)="hide()" [icon]="faTimes"></fa-icon>
+    <fa-icon *ngIf="shown" class="left-icon" (click)="goLeft()" [icon]="faAngleLeft"></fa-icon>
+    <fa-icon *ngIf="shown" class="right-icon" (click)="goRight()" [icon]="faAngleRight"></fa-icon>
+    <main *ngIf="shown" class="content">
+        <div *ngFor="let element of elements; index as i">
+            <section *ngIf="shown && i == currentElement">
+                <div [ngClass]="{'content-img': element.images.length == 1, 'content-multi-img': element.images.length > 1}">
+                    <img [ngClass]="{'img': element.images.length == 1, 'multi-img': element.images.length > 1}" *ngFor="let src of element.images" [src]="src" >
+                </div>
+                <div class="content-footer">
+                    {{element.description}}
+                </div>
+            </section>
+        </div>
+    </main>
+</div>
+<app-message [show]="showError" [error]="'Gallery error'"></app-message>

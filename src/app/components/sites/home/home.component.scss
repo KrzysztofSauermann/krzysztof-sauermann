@@ -1,0 +1,19 @@
+@import "../../../../scss/colors.scss";
+@import "../../../../scss/sizes.scss";
+
+main {
+    margin-top: -60px;
+}
+.title {
+    color: $name-color;
+    text-align: center;
+}
+.description {
+    color: grey;
+    font-style: italic;
+    text-align: center;
+    font-size: 14px;
+}
+.box {
+    min-height: 370px; min-width: 100%;
+}

@@ -1,0 +1,30 @@
+@import "../../../../scss/colors.scss";
+
+.text {
+    font-size: 16px;
+    text-align: left;
+    padding: 0 10px;
+}
+.bold {
+    font-weight: bold;
+}
+.name {
+    color: $name-color;
+    text-align: center;
+}
+// .canter {
+//     display: table;
+//     margin: 0 auto;
+//     text-align: center;
+// }
+table {
+    max-width: 100%;
+}
+td {       
+    width: 100%;
+    padding: 0;
+}
+td img {
+    height: 100px;
+    margin: 5px;
+}

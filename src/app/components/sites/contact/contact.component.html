@@ -1,0 +1,54 @@
+<div class="site gray-background">
+    <main>
+        <table class="table">
+            <tbody>
+                <tr>
+                    <td colspan="2">
+                        <img class="small-image mono-image-circle" src="assets/images/Mono-circle.webp" />
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table border">
+            <tbody>
+                <tr>
+                    <td>
+                        <app-external-link class="scaled" [faIcon]="faFacebook" [link]="facebookLink"
+                            [color]="'1178f2'">
+                        </app-external-link>
+                    </td>
+                    <td>
+                        <div class="link">{{facebookLinkShort}}</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <app-external-link class="scaled" [faIcon]="faLinkedin" [link]="linkedinLink"
+                            [color]="'0a66c2'">
+                        </app-external-link>
+                    </td>
+                    <td>
+                        <div class="link">{{linkedinLinkShort}}</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img class="gmail" src="assets/images/gmail.png">
+                    </td>
+                    <td class="flex">
+                        <div id="mail" class="link">krzysztof.sauermann@gmail.com</div>
+                        <fa-icon [icon]="faCopy" [ngClass]="{'icon':true, 'scaled':true, 'disabled':showMessage}"
+                            copyText copyTextId="mail" (click)="mailCopied()"></fa-icon>
+                        <app-message [(show)]="showMessage" [info]="'E-mail copied to clipboard.'"></app-message>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <ul class="company">
+            <li class=""><span appTranslate>Company name</span>: <span appTranslate>main-name</span></li>    
+            <li class="">NIP: 7631971828</li>
+            <li class="">REGON: 520006939</li>
+        </ul>
+    </main>
+    <app-footer id="footer" #footer></app-footer>
+</div>

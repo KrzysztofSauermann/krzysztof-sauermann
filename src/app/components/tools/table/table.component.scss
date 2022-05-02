@@ -1,0 +1,49 @@
+@import "../../../../scss/colors.scss";
+@import "../../../../scss/sizes.scss";
+
+table {
+    width: 100%;
+    max-width: 100%;
+}
+tr {    
+    margin: 0;
+}
+th, td {
+    padding: 20px 10px;
+    width: 50%;
+}
+.border tr {
+    box-shadow: 1px 3px 1px -3px $box-shadow-color;
+}
+.td-header {
+    display: none;
+}
+
+@media screen and (max-width: $tablet-width) {
+    thead {
+        display: none;
+    }
+    tr {
+        display: flex;
+        flex-direction: column;
+    }
+    th, td {
+        max-width: 100%;
+        width: 90%;
+        margin-bottom: 5px;
+    }
+    .td-header {
+        display: block;
+        text-align: left;
+        font-style: italic;
+    }
+    .td-header::after {
+        content: ":";
+    }
+    .border tr {
+        box-shadow: none;
+    }
+    .border td {
+        box-shadow: 0px 0.1px 0.3px 0.3px $box-shadow-color;
+    }
+}

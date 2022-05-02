@@ -1,0 +1,7 @@
+<header [ngClass]="headerClasses">
+  <section *ngIf="header.isShown()">
+    <app-logo></app-logo>
+    <app-menu></app-menu>
+    <app-set-language></app-set-language>
+  </section>
+</header>

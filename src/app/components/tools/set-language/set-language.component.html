@@ -1,0 +1,4 @@
+<section class="select-language">
+    <img (click)="setLanguage('pl')" id="pl" [ngClass]="{'image': true, 'selected': language.getLanguage() == 'pl'}" src="assets/images/pl.png" alt="Pl"/>
+    <img (click)="setLanguage('en')" id="en" [ngClass]="{'image': true, 'selected': language.getLanguage() == 'en'}" src="assets/images/en.png" alt="En"/>
+</section>

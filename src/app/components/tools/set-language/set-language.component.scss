@@ -1,0 +1,44 @@
+@import "../../../../scss/colors.scss";
+@import "../../../../scss/sizes.scss";
+
+.select-language {
+    position: absolute;
+    top: 20px;
+    justify-content: space-between;   
+    right: 10.7px;
+}
+.image {
+    margin-right: 7px;
+    border: 2px solid transparent;
+    border-radius: 50%; 
+}
+.selected {
+    pointer-events: none;
+    border-color: $main-color;   
+    transform: scale(0.85);
+}
+.overflow-shown {
+    right: 4px;
+}
+@media screen and (max-width: $tablet-width) {
+    .select-language {
+        position: absolute;
+        top: 5px;
+        justify-content: space-between;   
+        right: 2px;
+    }
+    .image {
+        margin-right: 1px;
+    }
+}
+@media screen and (max-height: $mobile-landscape-min-height) and (min-width: $tablet-width) {
+    .select-language {
+        position: absolute;
+        top: 5px;
+        justify-content: space-between;   
+        right: 2px;
+    }
+    .image {
+        margin-right: 1px;
+    }
+}

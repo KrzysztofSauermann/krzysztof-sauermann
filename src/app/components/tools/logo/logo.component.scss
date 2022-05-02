@@ -1,0 +1,50 @@
+@import "../../../../scss/sizes.scss";
+
+.logo {   
+    background-image: url("../../../../assets/images/logo.ico");
+    background-size: cover;
+    position: absolute;
+    background-color: white;
+    margin: 10px;
+    top:0;
+}
+.logo-small {
+    width: 24px;
+    height: 24px;
+}
+.logo-medium {
+    width: 48px;
+    height: 48px;
+}
+.logo-big {
+    width: 96px;
+    height: 96px;
+}
+@media screen and (max-width: $tablet-width) {
+    .logo {
+        width: 24px;
+        height: 24px;
+        margin: 7px;
+    }   
+    .logo-medium {
+        width: 48px;
+        height: 48px;
+    } 
+}
+@media screen and (min-width: $tablet-width-plus-one) {
+    .logo {
+        width: 48px;
+        height: 48px;
+    } 
+}
+@media screen and (max-height: $mobile-landscape-min-height) and (min-width: $tablet-width) {
+    .logo {
+        width: 24px;
+        height: 24px;
+        margin: 7px;
+    }   
+    .logo-medium {
+        width: 48px;
+        height: 48px;
+    }
+}
