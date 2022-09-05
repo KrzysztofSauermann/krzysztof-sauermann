@@ -8,12 +8,15 @@ import { LanguageService } from 'src/app/services/language.service';
 })
 export class AboutComponent implements OnInit {
 
-  dotnetYears: number = new Date().getFullYear() - new Date(2014,7,1).getFullYear();
-  trainerYears: number = new Date().getFullYear() - new Date(2018,9,1).getFullYear();
+  dotnetYears: number = this.getYears(new Date(2014, 7, 1));
+  trainerYears: number = this.getYears(new Date(2018, 9, 1));
 
-  constructor(public language:LanguageService) { }
+  constructor(public language: LanguageService) { }
 
   ngOnInit(): void {
+  }
+  private getYears(from: Date) {
+    return Math.round((new Date().getTime() - from.getTime()) / 31556952000);
   }
 
 }
