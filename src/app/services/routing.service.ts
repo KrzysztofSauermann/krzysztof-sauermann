@@ -67,7 +67,7 @@ export class RoutingService {
           this.historyCounter = 0;
           history.go(-1);
         }
-      }, 500);
+      }, 300);
     }
   }
   resetHistoryCounter() {

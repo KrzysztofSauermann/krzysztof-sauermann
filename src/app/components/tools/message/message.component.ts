@@ -16,7 +16,7 @@ export class MessageComponent implements OnInit {
   @Input()
   error!: string | null;
   @Input()
-  miniseconds: number = 10000;
+  miliseconds: number = 10000;
   
   @Input()
   show:boolean = false;
@@ -63,7 +63,7 @@ export class MessageComponent implements OnInit {
     this.ishiddenClass = "";
     setTimeout(() => {
       this.closeMessage();
-    }, this.miniseconds);
+    }, this.miliseconds);
     this.showChange.emit(this.show);
   }
   closeMessage() {    
