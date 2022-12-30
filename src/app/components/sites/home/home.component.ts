@@ -13,6 +13,7 @@ export class HomeComponent implements OnInit {
   mcsdLink: SafeUrl;
   mcsaSqlLink: SafeUrl;
   mcsaWebLink: SafeUrl;
+  azureDeveloperAssociateLink: SafeUrl;
   externalLinkSize: number = 128;
 
   constructor(public language: LanguageService, private sanitizer: DomSanitizer) {
@@ -20,6 +21,7 @@ export class HomeComponent implements OnInit {
     this.mcsdLink = this.sanitizer.bypassSecurityTrustUrl("https://www.credly.com/badges/9bab9f59-c07d-4185-a2db-dea509a27cfe/public_url");
     this.mcsaSqlLink = this.sanitizer.bypassSecurityTrustUrl("https://www.credly.com/badges/75171728-0717-4b48-9d88-7b2504c57a84/public_url");
     this.mcsaWebLink = this.sanitizer.bypassSecurityTrustUrl("https://www.credly.com/badges/d10b1eb0-cf62-46c6-9e37-8ab8221a4360/public_url");
+    this.azureDeveloperAssociateLink = this.sanitizer.bypassSecurityTrustUrl("https://www.credly.com/badges/e0c46c46-8df5-4177-836c-5d146081d7a9/public_url");
   }
 
   ngOnInit(): void {
