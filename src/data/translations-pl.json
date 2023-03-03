@@ -166,8 +166,8 @@
             "v": "lat doświadczenia"
         },
         {
-            "k": "Development of systems based on Microsoft technologies. Building backend applications using C #, .NET Framework, and .NET Core",
-            "v": "Rozwój systemów opartych o technologie Microsoft. Tworzenie aplikacji backendowych przy użyciu C#, .NET Framework i .NET Core"
+            "k": "Development of systems based on Microsoft technologies. Building backend applications using C #, .NET Framework, .NET Core, and .NET 5+",
+            "v": "Rozwój systemów opartych o technologie Microsoft. Tworzenie aplikacji backendowych przy użyciu C#, .NET Framework, .NET Core oraz .NET 5+"
         },
         {
             "k": "Building Web applications with HTML5, Microsoft ASP.NET MVC, ASP.NET Core, and also Angular, React JS. Using REST API, WCF services",
